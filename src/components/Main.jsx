@@ -13,12 +13,12 @@ const Main = () => {
         className="relative w-[1100px] h-[500px] bg-blue-600 rounded-2xl p-20"
         style={{ position: "relative" }}
       >
-        <button class="absolute bottom-1/3 left-1/3 bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-full">
+        <button class="absolute bottom-1/3 left-1/3 bg-teal-500 text-white font-bold py-2 px-4 rounded-full">
           Button
         </button>
         <button
           onMouseDown={handlePosition}
-          class={`absolute bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-full`}
+          class={`absolute bg-teal-500 text-white font-bold py-2 px-4 rounded-full`}
           style={{ bottom: point + "%", left: point + "%" }}
         >
           Button
