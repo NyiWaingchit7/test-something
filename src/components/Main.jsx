@@ -18,6 +18,7 @@ const Main = () => {
         </button>
         <button
           onMouseDown={handlePosition}
+          onMouseOver={handlePosition}
           class={`absolute bg-teal-500 text-white font-bold py-2 px-4 rounded-full`}
           style={{ bottom: point + "%", left: point + "%" }}
         >
